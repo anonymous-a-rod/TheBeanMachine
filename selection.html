@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The Bean Machine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav>
+    <div class="flex-container">
+      <div class="nav-left">
+        <h2 class="banner-text">THE BEAN MACHINE</h2>
+      </div>
+      <div class="nav-right">
+        <button class="button_menu"><a href="/index.html">About</a></button>
+        <button class="button_menu"><a href="/selection.html">Selection</a></button>
+        <a id="white_text" href="/login.html"><button class="button_login">Login</button></a>
+      </div>
+      <div class="nav-right2">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="fa fa-caret-down"> Menu</i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/index.html">About</a>
+            <a href="/selection.html">Selection</a>
+            <a href="/login.html">Login</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+  <br>
+
+  <body>
+    <header>
+
+      <div class="flex.container">
+        <div class="top-left">
+          <h2 class="inline">Selection</h2>
+          <img class="small-img inline" src="/assets/coffee-sale.png" alt="coffee shop">
+
+        </div>
+        <div class="top-right">
+          
+          <select class="inline">
+            <option>Most Popular</option>
+            <option>Newest</option>
+            <option>Price (low to high)</option>
+            <option>Price (high to low)</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <br>
+    <main>
+    <div class="container-selections">
+    
+      
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/brazil.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Brazilian Bourban Santos</figcaption>
+          <figcaption class="right">$20.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/colombian.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Colombian Supremo</figcaption>
+          <figcaption class="right">$15.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/mexican.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Mexican Arabica</figcaption>
+          <figcaption class="right">$29.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/panama.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Panamanian Geisha</figcaption>
+          <figcaption class="right">$89.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/venezuela.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Venezuelan Maracaibo</figcaption>
+          <figcaption class="right">$18.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/peru.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Peruvian Velo De La Novia</figcaption>
+          <figcaption class="right">$17.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/ecuador.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Ecuadorian Galapagos</figcaption>
+          <figcaption class="right">$34.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/bolivia.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Bolivian Illimani</figcaption>
+          <figcaption class="right">$25.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+      <figure class="cont">
+        <button class="available">AVAILABLE</button><br>
+        <img src="/assets/costa_rica.png" alt="coffee" class="coffee"><br>
+        <br>
+        <div class="flex-container">
+          <figcaption class="left">Costa Rican Tarrazu</figcaption>
+          <figcaption class="right">$32.95</figcaption>
+        </div><br>
+        <figcaption class="origin">Single Origin</figcaption><br><br>
+        <button class="buy" onclick="openPopup()">BUY</button>
+      </figure>
+    </div>
+    </main>
+
+    <footer>
+      <p class="footer_text">Find us on social media</p>
+      <a href="https://github.com/anonymous-a-rod" target=”_blank”><img src="/assets/icons/ic-github.svg"
+          alt="Github icon" class="logo"></a>
+      <a href="https://www.linkedin.com/in/aaron-venema-a4797354/" target=”_blank”><img
+          src="/assets/icons/ic-linkedin.svg" alt="LinkedIn icon" class="logo"></a>
+      <a href="https://www.facebook.com/runnerboyaaron/" target=”_blank”><img src="/assets/icons/ic-facebook.svg"
+          alt="Facebook icon" class="logo"></a>
+    </footer>
+
+    <!------ Pop-up for Buy button ------>
+    
+    <div class="popup-container"></div>
+    <div class="popup" id="popup">
+      <img src="/assets/checkout.svg">
+      <h2>Thank You!</h2>
+      <p>Your order has successfully been added to your cart.</p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+    </div>
+    <script>
+      let popup = document.getElementById("popup");
+      function openPopup() {
+        popup.classList.add("open-popup");
+      }
+      function closePopup() {
+        popup.classList.remove("open-popup");
+      }
+    </script>
+
+  </body>
+
+</html>

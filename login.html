@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The Bean Machine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- nav -->
+  <nav>
+    <div class="flex-container">
+      <div class="nav-left">
+        <h2 class="banner-text">THE BEAN MACHINE</h2>
+      </div>
+      
+      <div class="nav-right">
+        <button class="button_menu"><a href="/index.html">About</a></button>
+        <button class="button_menu"><a href="/selection.html">Selection</a></button>
+        <a id="white_text" href="/login.html"><button class="button_login">Login</button></a>
+      </div>
+      <div class="nav-right2">
+        <div class="dropdown">
+          <button class="dropbtn">
+            <i class="fa fa-caret-down"> Menu</i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/index.html">About</a>
+            <a href="/selection.html">Selection</a>
+            <a href="/login.html">Login</a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+
+  <main>
+
+
+
+    <form action="action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="/assets/store.svg" alt="Store" class="avatar">
+      </div>
+
+      <h2 class="sign-in">Sign in to start shopping</h2>
+      <hr class="sign-in">
+      
+      <div class="login-container">
+        <label for="uname" class="sign-in-txt"><b>Username</b></label>
+        <input class="main-inputs" type="text" placeholder="Enter Username" name="uname" required> 
+
+        <label for="psw"  class="sign-in-txt"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="login-button">Login</button>
+        <label  class="sign-in-txt">
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="login-container" style="background-color: #F6F2EF">
+        <a href="/index.html"><button type="button" class="cancelbtn login-button">Cancel</button></a>
+        <span class="psw">Forgot <a class="blue" onclick="openPanel()">password</a>?</span><br>
+        <span class="acc">Create <a class="blue" onclick="openPanelreg()">account</a></span>
+      </div>
+    </form>
+
+    <!-- Pop-up Password Reset form -->
+
+    <div class="panel" id="panel">
+      <a class="X" onclick="closePanel()">X</a>
+      <img class="panel__avatar" src="/assets/avatar.svg" alt="avatar" />
+      <form action="" method="post" class="inputs">
+
+        <div class="inputs__item inputs__item--cta">
+
+          <div>
+            <div>
+              <label for="new_email" >Email</label>
+              <input type="text" class="white-input" id="new_email" placeholder="Enter email" />
+            </div>
+            <div>
+              <label for="new_username" >Username</label>
+              <input type="text" class="white-input" id="new_username" placeholder="Enter username" />
+            </div>
+          </div>
+          <input type="submit" class="reset-btn" value="Reset Password" />
+        </div>
+      </form>
+    </div>
+
+
+    <script>
+      let panel = document.getElementById("panel");
+      function openPanel() {
+        panel.classList.add("open-panel");
+      }
+      function closePanel() {
+        panel.classList.remove("open-panel");
+      }
+    </script>
+
+    <!-- Pop-up Create Account form -->
+
+    <div class="panelreg" id="panelreg">
+      <a class="X" onclick="closePanelreg()">X</a>
+      <img class="panel__avatar" src="/assets/smiley-avatar.svg" alt="avatar" />
+      <form action="" method="post" class="inputs">
+
+        <div>
+          <label for="previous-password">Email</label>
+          <input type="text" class="white-input" id="username" placeholder="Enter email" />
+        </div>
+        <div>
+          <label for="username">Username</label>
+          <input type="text" class="white-input" id="username" placeholder="Create username" />
+        </div>
+        <div>
+          <label for="new-password">Password</label>
+          <input class="white-input" type="password" id="new-password" placeholder="Create password" />
+        </div>
+        <div>
+          <input type="submit" class="reset-btn" value="Register" />
+        </div>
+      </form>
+    </div>
+
+    <script>
+      let panelreg = document.getElementById("panelreg");
+      function openPanelreg() {
+        panelreg.classList.add("open-panelreg");
+      }
+      function closePanelreg() {
+        panelreg.classList.remove("open-panelreg");
+      }
+    </script>
+
+
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p class="footer_text">Find us on social media</p>
+    <a href="https://github.com/anonymous-a-rod" target=”_blank”><img src="/assets/icons/ic-github.svg"
+        alt="Github icon" class="logo"></a>
+    <a href="https://www.linkedin.com/in/aaron-venema-a4797354/" target=”_blank”><img
+        src="/assets/icons/ic-linkedin.svg" alt="LinkedIn icon" class="logo"></a>
+    <a href="https://www.facebook.com/runnerboyaaron/" target=”_blank”><img src="/assets/icons/ic-facebook.svg"
+        alt="Facebook icon" class="logo"></a>
+  </footer>
+</body>
+
+</html>

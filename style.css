@@ -1,0 +1,880 @@
+html {
+  scroll-behavior: smooth;
+  font-family: lato;
+}
+
+header {
+  background-color: ;
+  margin: auto;
+  width: 90%;
+}
+
+nav {
+  width: 100%;
+  background-color: #F6F2EF;
+  border: #1D1C1C 2px solid;
+}
+
+body {
+  background-color: ;
+  margin: auto;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+footer {
+  background-color:#1D1C1C;
+  text-align: center;
+  vertical-align: center;
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: lato;
+  color:#1D1C1C;
+}
+
+h2 {
+  font-size: 32px;
+  font-family:lato;
+}
+
+p {
+  font-size: 16px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1D1C1C;
+}
+
+hr {
+  height: 1px;
+  background-color:#F6F2EF;
+}
+
+.p {
+  font-size: 16px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.small-img {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  top: 4px;
+  left: 10px;
+}
+
+.banner-text {
+  font-size: 36pxx;
+  font-family: lato;
+  color: #FF5678;
+  letter-spacing: 3px;
+}
+
+#right {
+  position: relative;
+  left: 32px;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+  background-color: #F6F2EF;
+  padding: 8px 16px 16px 16px;
+  border-radius: 24px;
+  font-family:lato;
+}
+
+.home-figures {
+  display: inline-block;
+  text-align: center;
+  background-color: #F6F2EF;
+  padding: 24px 48px 24px 48px;
+  border-radius: 24px;
+  font-family:lato;
+}
+
+select {
+  padding: 8px 16px 8px 16px;
+  font-size: 16px;
+  font-family: lato;
+  color: #1D1C1C;
+  border-radius: 16px;
+  background-color: #F6F2EF;
+  border:#F6F2EF 1px solid;
+}
+
+select:hover {
+  border:#1D1C1C 1px solid;
+  transition: 0.2s;
+}
+
+label {
+  padding: 0px 16px 0px 0px;
+  font-size: 16px;
+  font-family: lato;
+  color: #1D1C1C;
+}
+
+.special_offers {
+  padding: 16px 0 24px 0;
+  color: #917D6E;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.top-left {
+  width: 47%;
+  text-align: left;
+  display: inline-block;
+}
+
+.top-right {
+  position: relative;
+  text-align: right;
+  width: 45%;
+  bottom: 7px;
+  display: inline-block;
+}
+
+.nav-left {
+  width: 60%;
+  text-align: left;
+  padding-left: 64px;
+}
+
+.nav-right {
+  width: 40%;
+  text-align: right;
+  padding-right: 64px;
+  padding-top: 28px;
+  display: relative;
+}
+
+
+
+.left {
+  width: 70%;
+  text-align: left;
+  padding-left: 16px;
+  
+}
+
+.right {
+  text-align: center;
+  width: 30%;
+}
+
+.origin {
+  width: 100%;
+  color:  #917D6E;
+  text-align: left;
+  padding-left: 16px;
+}
+
+a {
+  text-decoration: none;
+  color:#1D1C1C;
+  font-size: 16px;
+}
+
+#white_text {
+  color: white;
+}
+
+address {
+  display: inline-block;
+  text-decoration: underline;
+  color: #FF5678 ;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+
+.pink {
+  color: #FF5678;
+}
+
+.inline {
+  display: inline;
+}
+
+.sort {
+  text-align: right;
+  display: inline-block;
+  align-items: right;
+  margin: auto;
+}
+
+.search {
+  background-color: #F6F2EF;
+  border: none;
+  padding: 16px 144px 16px 16px;
+  border-radius: 16px;
+  color: #917D6E;
+}
+
+.buy:hover,
+.search_button:hover {
+  color:#FF5678; /* Green */
+  background-color:white;
+  cursor: pointer;
+  border: solid 2px #FF5678;
+  transition-duration: .4s;
+}
+
+.search_button {
+  background-color: #FF5678;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 16px;
+  margin-left: 4px;
+ 
+}
+
+.available {
+  background-color: #149770;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 160px;
+  border-radius: 24px 64px;
+  position: absolute;
+  left: 190px;
+  top: 24px;
+  letter-spacing: 2px;
+  text-align:center;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button_login:hover {
+  color:#1D1C1C; /* Green */
+  background-color:white;
+  cursor: pointer;
+}
+
+.button_login {
+  color: white;
+  background-color:#1D1C1C ;
+  padding:  8px 24px;
+  border-radius: 16px;
+  margin-left: 12px;
+  transition-duration: 0.4s;
+}
+
+.button_menu {     
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;  
+  a:visited {text-decoration: none;}
+  color: #1D1C1C;
+  margin: 0px;
+}
+
+.button_menu:hover {
+  border-bottom: 2px solid  #917D6E;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+        .nav-right {
+          margin-right: 5%;
+          width: 70px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          border: yellow 1 px solid;
+        }
+
+        .button_login {
+          margin-top: 0px;
+          height: 0px;
+          width: 0px;
+          visibility: hidden;
+        }
+        .button_menu:hover,
+        .button_menu {
+          height: 0px;
+          width: 0px;
+          visibility: hidden;
+         
+        }
+}
+
+
+
+.nav-right2 {
+  display: flex;
+  align-items: center;
+  margin-right: 10%;
+}
+
+/* Drop down for nav menu */
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  right: 100px;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: #1D1C1C;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background: #F6F2EF;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: #1D1C1C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #1D1C1C;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #917D6E;
+  color:#1D1C1C;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media only screen and (min-width: 768px)  {
+
+  .nav-right2 {
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+    margin-right: 0%;
+  }
+
+  
+}
+
+/* end of Drop down for nav menu */
+
+
+.container-selections {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.map {
+  position: relative;
+  display: flex;
+  
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mapouter {
+  border: 1px solid #1D1C1C;  
+}
+
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.roast {
+  height: 180px;
+  width: 180px;
+}
+
+.coffee {
+  height: 180px;
+  width: 180px;
+  padding: 64px 56px 0px 56px;
+}
+
+.buy {
+  background-color: #FF5678;
+  border: none;
+  padding:  8px 24px;
+  color: white;
+  border-radius: 16px;
+  height: 48px;
+  width: 157px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.illustration {
+  height: 400px;
+  float: right;
+  margin-top: 100px;
+}
+
+@media screen and (max-width : 1080px){
+.illustration {
+  height: 250px;
+  float: right;
+}
+} 
+
+@media screen and (max-width : 768px){
+.illustration {
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+} 
+
+.cont {
+position:relative; 
+margin: 32px;
+}
+
+.logo {
+  filter: invert(0.8);
+  height: 32px;
+  width: 32px;
+  padding: 0px 8px 24px 0;
+}
+
+.logo:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+
+
+.footer_text {
+  color: #FFFFFF;
+  padding-top: 24px;
+  margin-top: 150px;
+  font-size: 24px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/* Pop-up window for adding items to cart */
+
+.pop-container {
+  width: 100%;
+  height: 100vh;
+  background: #F6F2EF;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.popup {
+  width: 400px;
+  height: 400px;
+  background-color:  #F6F2EF;
+  border-radius: 16px;
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%)scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px 30px;
+  visibility: hidden;
+  transition-duration: 0.4s;
+  border: 2px solid  #917D6E;
+  box-shadow: 1px 3px #F6F2EF;
+}
+
+.open-popup{
+  top: 50%;
+  visibility: visible;
+  transform: translate(-50%,-50%)scale(1);
+}
+
+.popup img {
+  width: 250px;
+  height: 250px;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+
+.popup h2 {
+  font-size: 32px;
+  font-family: lato;
+  color: #FF5678;
+  margin: 0px 0 32px;
+}
+
+.popup p {
+  font-size: 16px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1D1C1C;
+  margin: 0px 0 16px;
+}
+
+.popup button {
+  width: 100%;
+  margin-top: 0px;
+  padding: 16px 16px;
+  background-color: #1D1C1C;
+  color: white;
+  font-size: 18px;
+  font-family: lato;
+  letter-spacing: 2px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: white;
+  color:  #1D1C1C;
+}
+
+/* End of pop-up section */
+
+
+
+/* Login page form */
+
+h2.sign-in {
+  font-size: 36px;
+  text-align: center;
+}
+
+hr.sign-in {
+  height: 2px;
+  background-color:  #1D1C1C;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+
+.sign-in-txt {
+  color: #917D6E;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+/* Full-width inputs */
+
+input[type=text], 
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  height: 64px;
+  box-sizing: border-box;
+  background-color: #F6F2EF;
+  border-radius: 16px;
+  border: none;
+  margin-bottom: 16px;
+}
+
+input.white-input {
+  background-color: white;
+  border: black;
+}
+
+
+/* Set a style for all buttons */
+
+.login-button {
+  background-color:#149770;
+  color: white;
+  padding: 16px 24px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 8px;
+  font-family: lato;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border: solid  #149770 2px;
+  transition-duration: .4s;
+}
+
+/* Add a hover effect for buttons */
+
+.login-button:hover {
+  background-color:white ;
+  color: #149770;
+  border: solid  #149770 2px;
+}
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
+  width: auto;
+  padding: 6px 14px;
+  background-color: #FF5678;
+  font-family: lato;
+  font-size: 16px;
+  border: solid  #FF5678 2px;
+}
+
+/* Add a hover effect for buttons */
+
+.cancelbtn:hover {
+  background-color:white ;
+  color:  #FF5678;
+  border: solid  #FF5678 2px;
+}
+
+
+/* Center the avatar image inside this container */
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+  border: solid  #1D1C1C 2px;
+}
+
+/* Add padding to containers */
+
+.login-container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+
+span.psw {
+  float: right;
+  margin-top: 4px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* The "Create account" text */
+
+span.acc {
+  float: right;
+  margin-top: -22px;
+  margin-right: 5px;
+  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  span.acc {
+  float: right;
+  margin-top: -20px;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* blue text */
+
+.blue {
+  color: blue ;
+  cursor:pointer;
+}
+
+.blue:hover {
+  opacity: 0.6;
+}
+
+/* password reset & create account pop-up forms */ 
+
+@import "compass/css3";
+
+/* password reset layout */ 
+
+.panel {
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  background: #F6F2EF;
+  margin: 40px auto;
+  width: 300px;
+  border: 2px solid #917D6E;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 1px 3px #F6F2EF;
+  transform: translate(-50%,-50%)scale(0.1);
+  transition-duration: 0.4s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.open-panel{
+  top: 50%;
+  visibility: visible;
+  transform: translate(-50%,-50%)scale(1);
+}
+
+/* Create account layout */ 
+
+.panelreg {
+  position: fixed;
+  left: 50%;
+  top: 0%;
+  background: #F6F2EF;
+  margin: 40px auto;
+  width: 300px;
+  border: 2px solid #917D6E;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 1px 3px #F6F2EF;
+  transform: translate(-50%,-50%)scale(.1);
+  transition-duration: 0.4s;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.open-panelreg{
+  top: 50%;
+  visibility: visible;
+  transform: translate(-50%,-50%)scale(1);
+}
+
+/* password reset & create account - account avatar */ 
+
+.panel__avatar {
+  background: #fff;
+  border: 2px solid #1D1C1C;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 40px;
+  display: block;
+}
+
+/* INPUTS */ 
+
+.inputs__item {
+  padding-bottom: 40px;
+}
+
+.inputs__label {
+  color:  #1D1C1C;
+  display: block;
+  font-family: lato;
+  font-size: 16px;
+}
+
+.inputs__input {
+  border: none;
+  border-bottom: 1px solid #6B6C70;
+  background: #FFFFFF;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-family: lato;
+  color:  #1D1C1C;
+  
+  &:focus {
+    outline: none;
+  }
+}
+
+.inputs__item--new {
+  .inputs__label, 
+  .inputs__input {
+    color: #6498BB;
+  }
+}
+
+.inputs__item--cta {
+  text-align: center;
+  padding-bottom: 0;
+  padding-top: 20px;
+}
+
+/* Password reset button */
+
+.reset-btn {
+  position: relative;
+  border:  #149770 2px solid;
+  background:  #149770;
+  color:  #FFFFFF;
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 10px 48px;
+  cursor: pointer;
+  font-family: lato;
+  letter-spacing: 1px;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.reset-btn:hover {
+  color:  #149770;
+  background:  #FFFFFF;
+  cursor: pointer;
+  border: #917D6E solid 2px;
+}
+
+.X {
+  color:  #1D1C1C;
+  position: absolute;
+  font-size: 20px;
+  top:10px;
+  right:10px;
+  padding: 6px;
+}
+.X:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
