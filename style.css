@@ -359,6 +359,7 @@ address {
 }
 
 
+@media (hover:hover){
 
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #1D1C1C;
@@ -373,6 +374,14 @@ address {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+}
+
+  /* for mobile to open dropdown menu */
+.content-active {
+  display: block;
+}
+
 
 
 
