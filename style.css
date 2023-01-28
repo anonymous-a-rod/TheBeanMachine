@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 html {
   scroll-behavior: smooth;
-  font-family: lato;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -15,7 +17,6 @@ nav {
 }
 
 body {
-  background-color: ;
   margin: auto;
 }
 
@@ -34,18 +35,15 @@ footer {
 
 h1 {
   font-size: 80px;
-  font-family: lato;
   color:#1D1C1C;
 }
 
 h2 {
   font-size: 32px;
-  font-family:lato;
 }
 
 p {
   font-size: 16px;
-  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #1D1C1C;
 }
 
@@ -56,7 +54,6 @@ hr {
 
 .p {
   font-size: 16px;
-  font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .small-img {
@@ -68,8 +65,7 @@ hr {
 }
 
 .banner-text {
-  font-size: 36pxx;
-  font-family: lato;
+  font-size: 36px;
   color: #FF5678;
   letter-spacing: 3px;
 }
@@ -85,7 +81,6 @@ figure {
   background-color: #F6F2EF;
   padding: 8px 16px 16px 16px;
   border-radius: 24px;
-  font-family:lato;
 }
 
 .home-figures {
@@ -94,13 +89,11 @@ figure {
   background-color: #F6F2EF;
   padding: 24px 48px 24px 48px;
   border-radius: 24px;
-  font-family:lato;
 }
 
 select {
   padding: 8px 16px 8px 16px;
   font-size: 16px;
-  font-family: lato;
   color: #1D1C1C;
   border-radius: 16px;
   background-color: #F6F2EF;
@@ -115,7 +108,6 @@ select:hover {
 label {
   padding: 0px 16px 0px 0px;
   font-size: 16px;
-  font-family: lato;
   color: #1D1C1C;
 }
 
@@ -157,7 +149,6 @@ label {
   padding-top: 28px;
   display: relative;
 }
-
 
 
 .left {
@@ -279,9 +270,7 @@ address {
   background-color: Transparent;
   background-repeat:no-repeat;
   border: none;  
-  a:visited {text-decoration: none};
-  color: #1D1C1C;
-  margin: 0px;
+
 }
 
 .button_menu:hover {
@@ -343,7 +332,7 @@ address {
   border: none;
   outline: none;
   color: #1D1C1C;
-  padding: 14px 16px;
+  padding: 14px 24px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -353,7 +342,7 @@ address {
 .dropdown-content {
   display: none;
   position: absolute;
-  min-width: 160px;
+  min-width: 114px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   background: #F6F2EF;
@@ -366,21 +355,42 @@ address {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
-.topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #1D1C1C;
-  color: white;
+
+/* targets devices that can hover  */
+@media (hover: hover) {
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: #1D1C1C;
+    color: white;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #917D6E;
+    color:#1D1C1C;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
-.dropdown-content a:hover {
-  background-color: #917D6E;
-  color:#1D1C1C;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+/* targets devices that can hover  */
+@media (hover: none) {
+  .topnav a:focus, .dropdown:focus .dropbtn {
+    background-color: #1D1C1C;
+    color: white;
+  }
+  
+  .dropdown-content a:focus {
+    background-color: #917D6E;
+    color:#1D1C1C;
+  }
+  
+  .dropdown:focus .dropdown-content {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 768px)  {
@@ -541,7 +551,6 @@ margin: 32px;
 
 .popup h2 {
   font-size: 32px;
-  font-family: lato;
   color: #FF5678;
   margin: 0px 0 32px;
 }
@@ -560,7 +569,6 @@ margin: 32px;
   background-color: #1D1C1C;
   color: white;
   font-size: 18px;
-  font-family: lato;
   letter-spacing: 2px;
   border-radius: 16px;
   cursor: pointer;
@@ -630,7 +638,6 @@ input.white-input {
   cursor: pointer;
   width: 100%;
   border-radius: 8px;
-  font-family: lato;
   font-size: 14px;
   letter-spacing: 1px;
   border: solid  #149770 2px;
@@ -651,7 +658,6 @@ input.white-input {
   width: auto;
   padding: 6px 14px;
   background-color: #FF5678;
-  font-family: lato;
   font-size: 16px;
   border: solid  #FF5678 2px;
 }
@@ -805,7 +811,6 @@ span.acc {
 .inputs__label {
   color:  #1D1C1C;
   display: block;
-  font-family: lato;
   font-size: 16px;
 }
 
@@ -816,19 +821,7 @@ span.acc {
   display: block;
   width: 100%;
   padding: 10px 0;
-  font-family: lato;
   color:  #1D1C1C;
-  
-  &:focus {
-    outline: none;
-  }
-}
-
-.inputs__item--new {
-  .inputs__label, 
-  .inputs__input {
-    color: #6498BB;
-  }
 }
 
 .inputs__item--cta {
@@ -848,7 +841,6 @@ span.acc {
   border-radius: 8px;
   padding: 10px 48px;
   cursor: pointer;
-  font-family: lato;
   letter-spacing: 1px;
   margin-top: 8px;
   width: 100%;
