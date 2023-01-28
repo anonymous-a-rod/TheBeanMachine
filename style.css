@@ -376,19 +376,19 @@ address {
   }
 }
 
-/* targets devices that can hover  */
+/* targets devices that can't hover  */
 @media (hover: none) {
-  .topnav a:focus, .dropdown:focus .dropbtn {
+  .topnav a:active, .dropdown:active .dropbtn {
     background-color: #1D1C1C;
     color: white;
   }
   
-  .dropdown-content a:focus {
+  .dropdown-content a:active {
     background-color: #917D6E;
     color:#1D1C1C;
   }
   
-  .dropdown:focus .dropdown-content {
+  .dropdown:active .dropdown-content {
     display: block;
   }
 }
