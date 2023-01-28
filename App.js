@@ -29,15 +29,26 @@ function closePopup() {
   popup.classList.remove("open-popup");
 }
 
-// // CREATE ACCOUNT POPUP
+// CREATE ACCOUNT POPUP
 
-// let panelreg = document.getElementById("panelreg");
+let panelreg = document.getElementById("panelreg");
 
-// function openPanelreg() {
-//   panelreg.classList.add("open-panelreg");
-// }
-// function closePanelreg() {
-//   panelreg.classList.remove("open-panelreg");
-// }
+function openPanelreg() {
+  panelreg.classList.add("open-panelreg");
+}
+function closePanelreg() {
+  panelreg.classList.remove("open-panelreg");
+}
+
+// PASSWORD RESET FORM
+
+let panel = document.getElementById("panel");
+
+function openPanel() {
+  panel.classList.add("open-panel");
+}
+function closePanel() {
+  panel.classList.remove("open-panel");
+}
 
 

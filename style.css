@@ -14,10 +14,13 @@ nav {
   width: 100%;
   background-color: #F6F2EF;
   border: #1D1C1C 2px solid;
+  box-sizing: border-box;
 }
 
 body {
   margin: auto;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 main {
@@ -564,6 +567,14 @@ margin: 32px;
   letter-spacing: 2px;
   border-radius: 16px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px){
+  .popup{
+    width: 300px;
+    height: 414px;
+  }
+
 }
 
 .popup button:hover {
