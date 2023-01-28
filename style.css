@@ -359,8 +359,7 @@ address {
 }
 
 
-/* targets devices that can hover  */
-@media (hover: hover) {
+
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #1D1C1C;
     color: white;
@@ -374,24 +373,8 @@ address {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-}
 
-/* targets devices that can't hover  */
-@media (hover: none) {
-  .topnav a:active, .dropdown:active .dropbtn {
-    background-color: #1D1C1C;
-    color: white;
-  }
-  
-  .dropdown-content a:active {
-    background-color: #917D6E;
-    color:#1D1C1C;
-  }
-  
-  .dropdown:active .dropdown-content {
-    display: block;
-  }
-}
+
 
 @media only screen and (min-width: 768px)  {
 
